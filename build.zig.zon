@@ -1,0 +1,27 @@
+.{
+    .name = .raymenuz_from_file,
+    .version = "0.0.0",
+    .fingerprint = 0xe8d9cf42fcd06cb6, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{
+        .raylib_zig = .{
+            .url = "git+https://github.com/raylib-zig/raylib-zig?ref=devel#a4d18b2d1cf8fdddec68b5b084535fca0475f466",
+            .hash = "raylib_zig-5.6.0-dev-KE8REL5MBQAf3p497t52Xw9P7ojndIkVOWPXnLiLLw2P",
+        },
+        .ymlz = .{
+            .url = "https://github.com/pwbh/ymlz/archive/refs/tags/0.6.0.tar.gz",
+            .hash = "ymlz-0.5.0-TG82aXqrAAC-NtiqbYQC2cNo4Qr9L9LDKEKMYRjtK6vT",
+        },
+        .raymenuz = .{
+            .url = "git+https://github.com/pajanowski/raymenuz.git?ref=v0.4.0#280d9469bd66d801d2ef03111d2ef82be1ad9599",
+            .hash = "raymenuz-0.0.0-wBK5K49LAQDKo6-sggb2aTqUXvX_bk21X1udazD6tkHl",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "README.md",
+        "LICENSE",
+    },
+}

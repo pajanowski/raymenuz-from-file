@@ -1,0 +1,32 @@
+drawSettings:
+  paddingY: 5
+  startX: 5
+  width: 75
+  height: 10
+  nameHeight: 10
+  namePadding: 0
+  buttonHeight: 20
+  checkboxSize: 10
+  toggleGroupButtonWidth: 45
+itemDefs:
+  - elementType: SLIDER
+    statePath: player.speed.x
+    name: X Speed
+    menuItemType: float
+    range:
+      upper: 20
+      lower: 0
+  - elementType: SLIDER
+    statePath: player.speed.y
+    name: Y Speed
+    menuItemType: float
+    range:
+      upper: 20
+      lower: 0
+  - elementType: LABEL
+    statePath: player.name
+    name: Name
+    menuItemType: string
+    range:
+      upper: 20
+      lower: 0
