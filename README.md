@@ -43,9 +43,8 @@ raymenuz_mod.addImport("raygui", raygui_mod);
 raymenuz_mod.addImport("ymlz", ymlz.module("root"));
 
 mod.addImport("raymenuz", raymenuz_mod);
+```
 
-// If using an executable:
-// exe.root_module.addImport("raymenuz", raymenuz_mod);
 - - - 
 ### Usage (File defined)
 
